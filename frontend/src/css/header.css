@@ -1,0 +1,27 @@
+.header {
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+.logo-component {
+    margin-right: 50px;
+    margin-left: 20px;
+    color: blue;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.tag-component {
+    margin-right: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 20px;
+
+}
+.tag-component:hover {
+    color: blue;
+    font-size: 22px;
+}
+.tag-component:active {
+    font-size: 22px;
+    color: aqua;
+}

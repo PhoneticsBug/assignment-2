@@ -11,7 +11,8 @@ const Chart = () => {
   }));
 
   return (
-    <LineChart width={800} height={400} data={chartData}>
+  <div className='chart'>
+    <LineChart width={1100} height={600} data={chartData}>
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="time" />
       <YAxis />
@@ -19,6 +20,7 @@ const Chart = () => {
       <Legend />
       <Line type="monotone" dataKey="value_area" stroke="#8884d8" />
     </LineChart>
+  </div>
   );
 };
 
